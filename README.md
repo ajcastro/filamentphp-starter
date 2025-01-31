@@ -53,7 +53,13 @@ DB_PASSWORD=
 php artisan migrate --seed
 ```
 
-7. Go to `/admin/login` and use credentials:
+7. Run vite:
+
+```bash
+npm run dev
+```
+
+8. Go to `/admin/login` and use credentials:
 
 ```
 username: admin@example.com
